@@ -1,0 +1,16 @@
+{
+  "name": "coop-indepencia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass sass/main.scss css/style.comp.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mdbootstrap": "^4.19.1",
+    "node-sass": "^4.14.1"
+  }
+}

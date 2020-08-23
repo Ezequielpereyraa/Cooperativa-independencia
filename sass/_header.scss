@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #f7f7f7;
+  padding: 1rem 4rem;
+  box-shadow: 0px 0.4rem 1rem rgba(0, 0, 0, 0.5);
+  flex-wrap: wrap;
+  z-index: 1;
+  @media only screen and(max-width:35em) {
+    justify-content: center;
+  }
+  &__titulo {
+    font-size: 2rem;
+    margin-right: 5rem;
+  }
+  &__logo {
+    width: 20rem;
+    height: 8rem;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+  }
+  &__item {
+    padding: 0rem 2rem;
+    @media only screen and(max-width:35em) {
+      padding: 0;
+    }
+  }
+  &__nav {
+    @media only screen and(max-width:75em) {
+      flex: 0 0 100%;
+    }
+    @media only screen and(max-width:29em) {
+      display: none;
+    }
+  }
+  &__link {
+    display: block;
+    color: $color-texto-primario;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    transition: all 1s ease;
+    &:hover {
+      color: #fff;
+      background-color: $color-texto-primario;
+      display: block;
+      border-radius: 0.7rem;
+    }
+  }
+  &__icons {
+    margin: 0.8rem;
+  }
+}
+.navbar {
+  display: none;
+  @media only screen and(max-width:29em) {
+    width: 100%;
+    display: block;
+    background-color: #f7f7f7;
+    box-shadow: none;
+    text-align: center;
+  }
+}

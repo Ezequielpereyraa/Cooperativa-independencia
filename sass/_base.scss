@@ -1,0 +1,58 @@
+*,
+::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  background-image: linear-gradient(
+    40deg,
+    #fff 20%,
+    $color-texto-primario 100%
+  );
+  & > * {
+    color: #5b5b5b;
+  }
+}
+.fa-whatsapp {
+  border-radius: 50%;
+  color: #05b460;
+  font-size: 4rem;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.icono-desktop {
+  border-radius: 50%;
+  color: #05b460;
+  font-size: 6rem;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  position: fixed;
+  left: 93.4%;
+  bottom: 4%;
+  @media only screen and (max-width: 37em) {
+    display: none;
+  }
+}
+main {
+  padding: 2rem 8rem;
+  @media only screen and(max-width:75em) {
+    padding: 2rem 5rem;
+  }
+  @media only screen and(max-width:57em) {
+    padding: 1rem 3rem;
+  }
+  @media only screen and(max-width:35em) {
+    padding: 1rem;
+  }
+}

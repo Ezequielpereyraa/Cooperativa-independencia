@@ -1,0 +1,19 @@
+Democracia
+La cooperativa es una organización democrática controlada por sus miembros quienes participan activamente en la definición de las políticas y en la toma de decisiones.
+Responsabilidad
+Cada socio asume su responsabilidad dentro de la cooperativa y para aportar al máximo sus capacidades y aptitudes para brindar el mejor servicio.
+Ayuda Mutua
+La primera actitud del socio de una cooperativa es ayudar y después esperar la mutualidad, que es la reciprocidad y la respuesta de los demás.
+Solidaridad
+apoyar, cooperar en la solución de problemas de los asociados, la familia y la comunidad.
+Equidad
+Enfrentar la inequidad y proponer una nueva manera de concebir y orientar la economía. La necesidad de la equidad implica también la necesidad de bienestar.
+
+##img valores
+valores1= Resposabilidad
+valores2 = Democracia
+valores3 = Solidaridad
+valores4 = ayuda Mutua
+valores5 = Equidad
+O al revés,  la de los cositos rojos equidad
+y el valores 5 Ayuda mutua
