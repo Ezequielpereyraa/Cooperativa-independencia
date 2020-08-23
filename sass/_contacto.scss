@@ -1,3 +1,50 @@
 .contacto {
   margin-top: 14vh;
+  @media only screen and(max-width:56.27em) {
+    margin-top: 18vh;
+  }
+  @include fondoSeccion;
+  &__container {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    align-items: center;
+    @media only screen and(max-width:56.27em) {
+      grid-template-columns: 100%;
+    }
+  }
+  &__box {
+    margin: 0 auto;
+  }
+  &__card {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  &__icon {
+    font-size: 4rem;
+    color: $color-texto-primario;
+  }
+  p {
+    font-weight: bold;
+    margin: 0;
+    font-size: 2rem;
+  }
+  &__oficina {
+    margin-top: 2rem;
+    padding: 1rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and(max-width:56.27em) {
+      padding: 0rem;
+    }
+    &--box {
+      display: flex;
+      align-items: center;
+      margin: 3rem 0;
+    }
+  }
+  iframe {
+    width: 100%;
+    box-shadow: 0 1rem 2rem rgba(#000, 0.4);
+  }
 }

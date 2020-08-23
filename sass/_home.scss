@@ -1,6 +1,9 @@
 .historia {
   margin-top: 10vh;
   @include fondoSeccion;
+  @media only screen and(max-width:35em) {
+    padding: 1rem;
+  }
   &__box {
     display: grid;
     align-items: center;
@@ -11,7 +14,7 @@
   }
   &__img {
     max-width: 100%;
-    box-shadow: 2px 2px 10px $color-texto-primario;
+    box-shadow: 2px 2px 10px rgba($color-texto-primario, 0.4);
   }
   &__descripcion {
     padding: 8rem;
@@ -20,7 +23,8 @@
     font-weight: 300;
     color: #000;
     @media only screen and(max-width:37.5em) {
-      padding: 1.5rem;
+      margin-top: 2rem;
+      padding: 1rem;
     }
     &--2 {
       font-weight: bold;
@@ -44,11 +48,18 @@
     display: grid;
     grid-gap: 3rem;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    @media only screen and(max-width:35em) {
+      grid-gap: 0;
+      grid-row-gap: 4rem;
+    }
   }
   &__card {
-    box-shadow: 0 1rem 1rem rgba(#0000, 0.3);
+    box-shadow: 0.7rem 0.7rem 1rem rgba(#0000, 0.3);
     cursor: pointer;
     transition: transform 0.7s ease;
+    @media only screen and(max-width:35em) {
+      margin-right: 2rem;
+    }
     &:hover {
       transform: scale(1.1);
     }
@@ -59,6 +70,8 @@
     }
     &--titulo {
       font-size: 2rem;
+      font-style: oblique;
+      letter-spacing: 2px;
       background-color: $color-texto-primario;
       text-align: center;
       font-weight: bold;
@@ -69,7 +82,11 @@
     &--descripcion {
       font-size: 1.6rem;
       padding: 2rem;
-      font-weight: 400;
+      font-weight: 300;
+      @media only screen and(max-width:35em) {
+        font-size: 2rem;
+        font-weight: 400;
+      }
     }
   }
 }
@@ -78,19 +95,25 @@
   &__contenedor {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-column-gap: 12rem;
   }
   &__lista {
     list-style: none;
     display: grid;
     justify-content: flex-start;
     align-items: center;
+
     grid-template-columns: repeat(2, 1fr);
     grid-row: auto;
     padding: 1.5rem;
+    @media only screen and(max-width:35em) {
+      grid-template-columns: 100%;
+    }
   }
   &__item {
     font-size: 1.7rem;
     font-weight: 600;
+    margin: 0.5rem 0;
     & > span {
       color: $color-texto-primario;
       margin-right: 1rem;
