@@ -1,13 +1,16 @@
 .contacto {
-  margin-top: 14vh;
+  margin-top: 10vh;
+  margin-bottom: 7rem;
+
   @media only screen and(max-width:56.27em) {
     margin-top: 18vh;
   }
-  @include fondoSeccion;
+
   &__container {
     display: grid;
     grid-template-columns: min-content 1fr;
     align-items: center;
+    color: #fff;
     @media only screen and(max-width:56.27em) {
       grid-template-columns: 100%;
     }
@@ -18,10 +21,15 @@
   &__card {
     text-align: center;
     margin: 3rem 0;
+    a {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: bold;
+    }
   }
   &__icon {
     font-size: 4rem;
-    color: $color-texto-primario;
+    margin-right: 1rem;
   }
   p {
     font-weight: bold;

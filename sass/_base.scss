@@ -13,8 +13,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   background-image: linear-gradient(
-    40deg,
-    #fff 20%,
+    220deg,
+    #fff 0%,
     $color-texto-primario 100%
   );
   & > * {
@@ -34,6 +34,12 @@ body {
 .icono-desktop {
   width: 10rem;
   height: 10rem;
+  transition: 0.4s;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+.wsp {
   cursor: pointer;
   transition: transform 0.5s ease;
   position: fixed;
