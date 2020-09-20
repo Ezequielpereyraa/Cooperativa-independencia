@@ -69,10 +69,7 @@ body {
   bottom: 0; }
   @media only screen and (max-width: 75em) {
     .wsp {
-      left: 85%; } }
-  @media only screen and (max-width: 30em) {
-    .wsp {
-      left: 76%; } }
+      left: 88%; } }
 
 main {
   padding: 2rem 8rem; }
@@ -284,8 +281,8 @@ main {
         margin-top: 17vh; } }
     @media only screen and (max-width: 37em) {
       .oportunidades__box {
-        margin-top: 10vh;
-        transform: translateY(4rem);
+        margin-top: 8vh;
+        transform: translateY(5rem);
         margin-bottom: 5rem; } }
     @media only screen and (max-width: 23em) {
       .oportunidades__box {
