@@ -69,7 +69,7 @@ body {
   bottom: 0; }
   @media only screen and (max-width: 75em) {
     .wsp {
-      left: 88%; } }
+      left: 83%; } }
 
 main {
   padding: 2rem 8rem; }
@@ -281,9 +281,9 @@ main {
         margin-top: 17vh; } }
     @media only screen and (max-width: 37em) {
       .oportunidades__box {
-        margin-top: 8vh;
-        transform: translateY(5rem);
-        margin-bottom: 5rem; } }
+        margin-top: 0vh;
+        transform: translateY(10rem);
+        margin-bottom: 10rem; } }
     @media only screen and (max-width: 23em) {
       .oportunidades__box {
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); } }
@@ -319,7 +319,7 @@ main {
       font-size: 2rem; }
       @media only screen and (max-width: 37em) {
         .oportunidades__anuncio h3 {
-          font-size: 1.7rem;
+          font-size: 1.9rem;
           margin-top: 1rem; } }
       @media only screen and (max-width: 23em) {
         .oportunidades__anuncio h3 {
@@ -333,7 +333,7 @@ main {
       margin-top: 8vh; } }
   @media only screen and (max-width: 23em) {
     .contacto {
-      margin-top: 14vh; } }
+      margin-top: 8vh; } }
   .contacto__container {
     display: grid;
     grid-template-columns: min-content 1fr;
