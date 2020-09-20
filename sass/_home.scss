@@ -47,7 +47,7 @@
   &__box {
     display: grid;
     grid-gap: 3rem;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     @media only screen and(max-width:35em) {
       grid-gap: 0;
       grid-row-gap: 4rem;

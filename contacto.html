@@ -18,57 +18,67 @@
       href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
     />
     <link rel="stylesheet" href="css/style.comp.css" />
-    <title>Cooperativa Independencia LTDA</title>
+    <title>Contacto | Coop Independecia LTDA</title>
   </head>
   <body>
-     <header class="header">
-      <div class="header__box">
-        <a href="index.html"><img class="header__logo" src="img/logo-blanco2.png" alt="logo" /></a>
-      </div>
-      <nav class="navbar navbar-expand-lg  ">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon dark-green-ic ">
-      <i  class="fas fa-bars fa-2x"></i></span>
-       </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="header__list navbar-nav ">
-            <li class="header__item nav-item">
-              <a href="index.html" class="header__link nav-link "
+  <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+          <img
+            class="header__logo"
+            src="img/logo-blanco2.png"
+            alt="logo cooperativa"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+
+            <svg
+              class="navbar-toggler-icon"
+
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link "
                 ></i>Home <i class="header__icons fas fa-home"></i
               ></a>
             </li>
-            <li class="header__item nav-item">
-              <a href="oportunidadesdetrabajo.html" class="header__link nav-link ">Oportunidades de Trabajo <i class="header__icons fas fa-briefcase"></i></a>
+             <li class="nav-item">
+              <a href="oportunidadesdetrabajo.html" class=" nav-link ">Oportunidades de Trabajo Cooperativo <i class="header__icons fas fa-briefcase"></i></a>
             </li>
-            <li class="header__item nav-item">
-              <a href="contacto.html" class="header__link nav-link ">Contacto <i class="header__icons fas fa-phone"></i></a>
+            <li class="nav-item">
+              <a href="contacto.html" class=" nav-link ">Contacto <i class="header__icons fas fa-phone"></i></a>
             </li>
-             <li class="header__item nav-item">
-              <a href="#" class="header__link nav-link "><i class="fab fa-whatsapp"></i></a>
+             <li class="nav-item">
+              <a href="#" class=" nav-link "><i class="fab fa-whatsapp"></i></a>
             </li>
           </ul>
         </div>
       </nav>
-       <nav class="header__nav  ">
-          <ul class="header__list">
-            <li class="header__item">
-              <a href="index.html" class="header__link "
-                ></i>Home <i class="header__icons fas fa-home"></i
-              ></a>
-            </li>
-            <li class="header__item">
-              <a href="oportunidadesdetrabajo.html" class="header__link ">Oportunidades de Trabajo <i class="header__icons fas fa-briefcase"></i></a>
-            </li>
-            <li class="header__item">
-              <a href="contacto.html" class="header__link nav-link ">Contacto <i class="header__icons fas fa-phone"></i></a>
-            </li>
-          </ul>
-        </nav>
-        </header>
-
+    </header>
+  <div class="curved"></div>
         <main class="contacto">
-          <h1 class="titulo__principal">Contacto</h1>
+
     <section class="contacto__container">
         <div class="contacto__box">
         <div class="contacto__card">
@@ -79,7 +89,9 @@
         <div class="contacto__card">
           <i class="fas fa-envelope contacto__icon"></i>
         <a href="mailto:administracion@independencialda.com.ar">administracion@independencialda.com.ar</a>
-        <a href="mailto:info-ventas@independencialda.com.ar">info-ventas@independencialda.com.ar</a>
+        </div>
+        <div class="contacto__card">
+           <a href="mailto:info-ventas@independencialda.com.ar">info-ventas@independencialda.com.ar</a>
         </div>
         <div class="contacto__card">
           <i class="fas fa-clock contacto__icon"></i>
@@ -100,9 +112,10 @@
     <img src="img/wsp.png" alt="whatsapp" class="icono-desktop">
   </a>
     <footer class="footer">
-      <p class="footer__text">
+      <a href='http://gezequielpereyra.com/'
+      class="footer__text" target="_blank">
         © 2020 Copyright: <b>Ezequiel Pereyra</b>
-      </p>
+      </a>
     </footer>
     <script
       type="text/javascript"
